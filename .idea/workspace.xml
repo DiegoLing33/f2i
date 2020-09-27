@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ca32a66-0b5e-4169-81f3-59c01fd4d281" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601157104754</updated>
       <workItem from="1601157106111" duration="24220000" />
-      <workItem from="1601230786716" duration="2147000" />
+      <workItem from="1601230786716" duration="2208000" />
     </task>
     <task id="LOCAL-00001" summary="Added license">
       <created>1601225285511</created>
@@ -211,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601235848081</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added API documentation">
+      <created>1601243904548</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601243904548</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,17 +236,18 @@
     <MESSAGE value="text fixes" />
     <MESSAGE value="Types added" />
     <MESSAGE value="Async error fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Async error fixed" />
+    <MESSAGE value="Added API documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added API documentation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601224294592">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1601224294592" />
-    <state x="857" y="209" key="CommitChangelistDialog2" timestamp="1601235847995">
+    <state x="857" y="209" key="CommitChangelistDialog2" timestamp="1601243904448">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="857" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1601235847995" />
+    <state x="857" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1601243904448" />
     <state x="1151" y="628" key="Github.ShareDialog" timestamp="1601223405965">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -269,10 +276,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="359" width="1320" height="722" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1601225358816" />
-    <state x="880" y="456" key="Vcs.Push.Dialog.v2" timestamp="1601235851129">
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2" timestamp="1601243907210">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="880" y="456" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1601235851129" />
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1601243907210" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1601235785589">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

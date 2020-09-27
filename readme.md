@@ -22,7 +22,10 @@ Run `f2i` in the terminal and use UI application. Cli version right now in progr
 
 ## API
 
-You can import library to create your own projects. Just import `import ImageIO from "f2i/dist/image/ImageIO";`.
+You can import library to create your own projects. Just import 
+```javascript
+import ImageIO from "f2i/dist/image/ImageIO";
+```
 (*Maybe right now it doesn't seem pretty, but it works fine*)
 
 ### Text -> Image
