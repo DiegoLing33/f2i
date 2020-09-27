@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ca32a66-0b5e-4169-81f3-59c01fd4d281" name="Default Changelist" comment="" />
+    <list default="true" id="9ca32a66-0b5e-4169-81f3-59c01fd4d281" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +22,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1i4BhbkcYaIW6QFxbuOXOrFa9Sx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601157104754</updated>
-      <workItem from="1601157106111" duration="18761000" />
+      <workItem from="1601157106111" duration="20415000" />
     </task>
     <servers />
   </component>
@@ -86,6 +96,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601224294592">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1601224294592" />
+    <state x="1151" y="628" key="Github.ShareDialog" timestamp="1601223405965">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1151" y="628" key="Github.ShareDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1601223405965" />
+    <state x="1058" y="350" key="Github.UntrackedFilesDialog" timestamp="1601223418192">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1058" y="350" key="Github.UntrackedFilesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1601223418192" />
     <state width="2518" height="419" key="GridCell.Tab.0.bottom" timestamp="1601209903336">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -102,6 +124,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2518" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1601209903335" />
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2" timestamp="1601223424377">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1601223424377" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1601164900961">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
