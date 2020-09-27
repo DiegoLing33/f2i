@@ -5,8 +5,8 @@ File to image utility
 
 ---
 ## Idea
-Right now (version 0.1.0) can only converts text to image and back again, but it contains the very simple algorithm
-that allow encode files in the future. I want to realize the system like "Path to Image", what about store and share your 
+Right now (version 0.1.0) you can only converts text to image and back again, but application contains the very simple algorithm
+that allows encoding files in the future. I want to realize the system like "Path to Image", what about store and share your 
 projects in images? Sounds interesting. Ok go...
 
 ## How to use?
