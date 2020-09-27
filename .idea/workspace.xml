@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ca32a66-0b5e-4169-81f3-59c01fd4d281" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/screen.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +43,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/dist/static/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/dist/static" />
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src/static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/dist/static/img" />
     </key>
   </component>
   <component name="RunManager">
@@ -82,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601157104754</updated>
       <workItem from="1601157106111" duration="24220000" />
-      <workItem from="1601230786716" duration="2208000" />
+      <workItem from="1601230786716" duration="2333000" />
     </task>
     <task id="LOCAL-00001" summary="Added license">
       <created>1601225285511</created>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601243904548</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added API documentation">
+      <created>1601243961151</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601243961151</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,10 +252,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1601224294592" />
-    <state x="857" y="209" key="CommitChangelistDialog2" timestamp="1601243904448">
+    <state x="857" y="209" key="CommitChangelistDialog2" timestamp="1601243961059">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="857" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1601243904448" />
+    <state x="857" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1601243961059" />
     <state x="1151" y="628" key="Github.ShareDialog" timestamp="1601223405965">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -276,10 +284,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="359" width="1320" height="722" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1601225358816" />
-    <state x="880" y="456" key="Vcs.Push.Dialog.v2" timestamp="1601243907210">
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2" timestamp="1601243963111">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="880" y="456" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1601243907210" />
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1601243963111" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1601235785589">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
