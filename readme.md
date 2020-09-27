@@ -48,7 +48,7 @@ This function returns the `Promis<string>`.
 ---
 UI Screen
 
-<img style="width: 100%" src="https://github.com/DiegoLing33/f2i/blob/master/resources/screen.png?raw=true" alt="screen" />
+<img style="width: 100%" src="https://github.com/DiegoLing33/f2i/blob/master/resources/image.png?raw=true" alt="screen" />
 
 - Save image - Saves image as file (with your  text)
 - Load image - Loads image and decode the text from it
