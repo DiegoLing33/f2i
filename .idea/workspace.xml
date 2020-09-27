@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ca32a66-0b5e-4169-81f3-59c01fd4d281" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="9ca32a66-0b5e-4169-81f3-59c01fd4d281" name="Default Changelist" comment="IDE settings">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/f2i.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/f2i.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/ImageIO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/ImageIO.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Coder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Coder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Compose.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Compose.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Hex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Hex.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -81,8 +85,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601157104754</updated>
-      <workItem from="1601157106111" duration="20415000" />
+      <workItem from="1601157106111" duration="20563000" />
     </task>
+    <task id="LOCAL-00001" summary="Added license">
+      <created>1601225285511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601225285511</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added index file">
+      <created>1601225299433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601225299433</updated>
+    </task>
+    <task id="LOCAL-00003" summary="IDE settings">
+      <created>1601225304933</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601225304933</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,11 +121,21 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added license" />
+    <MESSAGE value="Added index file" />
+    <MESSAGE value="IDE settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDE settings" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601224294592">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1601224294592" />
+    <state x="857" y="209" key="CommitChangelistDialog2" timestamp="1601225311017">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="857" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1601225311017" />
     <state x="1151" y="628" key="Github.ShareDialog" timestamp="1601223405965">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -124,10 +160,14 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="2518" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1601209903335" />
-    <state x="880" y="456" key="Vcs.Push.Dialog.v2" timestamp="1601223424377">
+    <state x="781" y="359" width="1320" height="722" key="SettingsEditor" timestamp="1601225358816">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="880" y="456" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1601223424377" />
+    <state x="781" y="359" width="1320" height="722" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1601225358816" />
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2" timestamp="1601225313169">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1601225313169" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1601164900961">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
