@@ -1,4 +1,4 @@
-# F2I 0.1.5 &middot; [![GitHub license](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/DiegoLing33/f2i/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/f2i.svg?style=flat)](https://www.npmjs.com/package/efi)
+# F2I 0.1.5 &middot; [![GitHub license](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/DiegoLing33/f2i/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/f2i.svg?style=flat)](https://www.npmjs.com/package/f2i)
 <img style="height: 100px" src="https://github.com/DiegoLing33/f2i/blob/master/resources/logo.png?raw=true" alt="logo" />
 
 File to image utility
