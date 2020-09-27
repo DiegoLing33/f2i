@@ -50,7 +50,7 @@ const ImageIO = {
         });
     },
 
-    imageToText(image: Jimp) {
+    imageToText(image: Jimp): string {
         const size = image.getWidth();
         const pxs = [];
         for (let i = 0; i < size; i++)

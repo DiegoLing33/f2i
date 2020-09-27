@@ -1,11 +1,12 @@
 {
   "name": "f2i",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "main": "bin/index.js",
   "license": "Apache-2.0",
   "homepage": "https://github.com/DiegoLing33/f2i#readme",
   "author": "Diego Ling",
   "description": "Converts text to image",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "node ./bin/index.js",
     "build": "tsc",
