@@ -10,6 +10,7 @@
  * @site http://ling.black
  */
 
-import ImageIO from "../src/image/ImageIO";
+import ImageIO from "./image/ImageIO";
+const F2I = ImageIO;
 
-export {ImageIO};
+export default F2I;

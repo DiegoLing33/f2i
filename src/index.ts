@@ -10,18 +10,6 @@
  * @site http://ling.black
  */
 
-/*
- * ██╗░░░░░██╗███╗░░██╗░██████╗░░░░██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗
- * ██║░░░░░██║████╗░██║██╔════╝░░░░██╔══██╗██║░░░░░██╔══██╗██╔══██╗██║░██╔╝
- * ██║░░░░░██║██╔██╗██║██║░░██╗░░░░██████╦╝██║░░░░░███████║██║░░╚═╝█████═╝░
- * ██║░░░░░██║██║╚████║██║░░╚██╗░░░██╔══██╗██║░░░░░██╔══██║██║░░██╗██╔═██╗░
- * ███████╗██║██║░╚███║╚██████╔╝░░░██████╦╝███████╗██║░░██║╚█████╔╝██║░╚██╗
- * ╚══════╝╚═╝╚═╝░░╚══╝░╚═════╝░░░░╚═════╝░╚══════╝╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝
- *
- * Developed by Yakov V. Panov (C) Ling • Black 2020
- * @site http://ling.black
- */
-
 import {app, BrowserWindow, dialog, ipcMain} from "electron";
 import path from "path";
 import fs from "fs";
@@ -48,7 +36,6 @@ function launchElectron(flags: string[] = []) {
     flags.push("gui");
     child_process.exec(path.resolve(ELECTRON_PATH) + " " + getModulePath() + '/dist ' + flags.join(" "));
 }
-
 
 const cliArgs = process.argv.slice(2);
 if (cliArgs.length === 0) {
@@ -127,5 +114,3 @@ function gui(wd?: string) {
         app.quit()
     });
 }
-
-export {ImageIO};

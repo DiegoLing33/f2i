@@ -1,6 +1,6 @@
 {
   "name": "f2i",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "bin/index.js",
   "license": "Apache-2.0",
   "homepage": "https://github.com/DiegoLing33/f2i#readme",
@@ -13,7 +13,7 @@
     "install": "tsc"
   },
   "files": [
-    "*"
+    "**/*"
   ],
   "dependencies": {
     "jimp": "^0.16.1",
