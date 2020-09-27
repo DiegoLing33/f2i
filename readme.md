@@ -17,3 +17,27 @@ Do installation **only** global
 
 ### Encode and decode
 Run `f2i` in the terminal and use UI application. Cli version right now in progress.
+
+---
+
+## API
+
+You can import library to create your own projects. Just import `import ImageIO from "f2i/dist/image/ImageIO";`.
+(*Maybe right now it doesn't seem pretty, but it works fine*)
+
+### Text -> Image
+```javascript
+ImageIO.textToImage( text ).then( image => image.write( path ));
+```
+
+- Param `text` - this is the text to encode
+- Param `path` - this is the path where image will be saved
+
+### Image -> Text
+```javascript
+ImageIO.imagePathToText( path ).then(text => console.log(text));
+```
+
+- Param `path` - this is the path to your `png` image file
+
+This function returns the `Promis<string>`.
