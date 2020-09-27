@@ -2,14 +2,18 @@
   "name": "f2i",
   "version": "0.1.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/DiegoLing33/f2i#readme",
   "author": "Diego Ling",
   "description": "Converts text to image",
   "scripts": {
-    "start": "./node_modules/.bin/electron .",
+    "start": "node .",
     "build": "tsc",
     "install": "tsc"
   },
+  "files": [
+    "*"
+  ],
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
@@ -23,7 +27,8 @@
   "bin": {
     "f2i": "./index.js"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DiegoLing33/f2i.git"
   }
 }
