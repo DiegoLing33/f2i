@@ -44,3 +44,8 @@ ImageIO.imagePathToText( path ).then(text => console.log(text));
 - Param `path` - this is the path to your `png` image file
 
 This function returns the `Promis<string>`.
+
+---
+UI Screen
+
+<img style="width: 100%" src="https://github.com/DiegoLing33/f2i/blob/master/resources/screen.png?raw=true" alt="logo" />
