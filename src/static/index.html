@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <style>
+        img {
+            image-rendering: crisp-edges;
+            image-rendering: -webkit-crisp-edges;
+        }
+    </style>
+</head>
+<body>
+<nav style="-webkit-app-region: drag; user-select: none" class="navbar navbar-expand-lg navbar-dark bg-dark pt-3">
+    <div class="navbar-brand mx-auto">F2I</div>
+</nav>
+<div class="container pt-3 h-100">
+    <div class="row">
+        <div class="col-md-6">
+            <h5 class="text-center">Image</h5>
+            <div id="cnv" style="width: 100%; background-color: #eee">
+                <img class="w-100 h-100" hidden src="" alt="image" id="img" />
+            </div>
+            <button id="btnSaveImage" class="btn btn-primary btn-block mt-3">Save image</button>
+        </div>
+        <div class="col-md-6">
+            <h5 class="text-center">Text</h5>
+            <textarea style="resize: none" id="ta" class="form-control"></textarea>
+            <button id="btnLoadImage" class="btn btn-primary btn-block mt-3">Load image</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 small text-center text-muted mt-3" style="opacity: 0.5; font-size: 11px">
+            Developed by Yakov V. Ling (ling.black) &COPY; All Rights Reserved 2020
+            <div>Version: 0.1</div>
+        </div>
+    </div>
+</div>
+<script>
+    const {ipcRenderer} = require('electron');
+
+    window.onload = () => {
+        const $area = document.getElementById("ta");
+        const $img = document.getElementById("img");
+        const $cnv = document.getElementById("cnv");
+
+        // Buttons
+        const $btnLoadImage = document.getElementById('btnLoadImage');
+        const $btnSaveImage = document.getElementById('btnSaveImage');
+
+        // Cache
+        let lastImageBase64 = '';
+
+        $cnv.style["height"] =  "450px";
+        $cnv.style["width"] =  "450px";
+
+        $area.style["height"] =  "450px";
+        $area.style["width"] =  "450px";
+
+        $btnLoadImage.onclick = () => {
+          ipcRenderer.invoke('openImage');
+        };
+
+        $btnSaveImage.onclick = () => {
+          ipcRenderer.invoke('saveImage', lastImageBase64);
+        };
+
+        ipcRenderer.on("imgNew", (e, arg) => {
+            lastImageBase64 = arg.base;
+            $img.src = arg.base;
+            $img.hidden = false;
+        });
+
+        ipcRenderer.on("displayText", (e, arg) => {
+           $area.value = arg.text;
+            $img.src = arg.path;
+            $img.hidden = false;
+        });
+
+        $area.onkeyup = () => {
+            ipcRenderer.invoke('text', $area.value);
+        };
+
+        /*
+        $cnv.height = size;
+
+        const ctx = $cnv.getContext('2d');
+        ctx.fillStyle = '#eeeeee';
+        ctx.fillRect(0, 0, size, size);
+
+
+        console.log($cnv.width);
+        // console.log($cnv.height = )
+
+        $area.clientHeight = size;
+        $area.onkeyup = () => {
+            ipcRenderer.invoke('text', $area.value);
+        };
+        */
+    };
+</script>
+</body>
+</html>
