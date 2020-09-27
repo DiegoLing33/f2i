@@ -37,10 +37,7 @@ const ImageIO = {
                         save(path: string) {
                             const sp = path.endsWith('.png') ? path : `${path}.png`;
                             return new Promise((resolve1, reject1) => {
-                                image.write(sp, (err) => {
-                                    if (err) reject(err);
-                                    else resolve();
-                                });
+                                image.writeAsync(sp).then(() => resolve).catch(reject1);
                             });
                         }
                     }) as any;
