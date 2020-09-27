@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ca32a66-0b5e-4169-81f3-59c01fd4d281" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
@@ -37,7 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.35" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -51,6 +50,7 @@
       <recent name="$PROJECT_DIR$/dist/static/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/dist/static" />
       <recent name="$PROJECT_DIR$/dist" />
@@ -82,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601157104754</updated>
-      <workItem from="1601157106111" duration="22124000" />
+      <workItem from="1601157106111" duration="22520000" />
     </task>
     <task id="LOCAL-00001" summary="Added license">
       <created>1601225285511</created>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601225899763</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Run via terminal fixes">
+      <created>1601227400978</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601227400978</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,17 +175,18 @@
     <MESSAGE value="Fixed readme" />
     <MESSAGE value="fix dependencies" />
     <MESSAGE value="Removed babel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed babel" />
+    <MESSAGE value="Run via terminal fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Run via terminal fixes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601224294592">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1601224294592" />
-    <state x="857" y="209" key="CommitChangelistDialog2" timestamp="1601225899688">
+    <state x="857" y="209" key="CommitChangelistDialog2" timestamp="1601227400899">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="857" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1601225899688" />
+    <state x="857" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1601227400899" />
     <state x="1151" y="628" key="Github.ShareDialog" timestamp="1601223405965">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>

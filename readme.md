@@ -9,8 +9,10 @@ that allow encode files in the future. I want to realize the system like "Path t
 projects in images? Sounds interesting. Ok go...
 
 ## How to use?
-### Installation: 
-`yarn global add f2i` or `npm install -g f2i`.
+### Installation:
+Do installation **only** global
+ 
+`yarn global add f2i`
 
 ### Encode and decode
 Run `f2i` in the terminal and use UI application. Cli version right now in progress.

@@ -58,6 +58,7 @@ function gui(wd?: string) {
             webPreferences: {
                 nodeIntegration: true
             },
+            icon: path.resolve(getModulePath() + "/resources/icon.png"),
             title: 'F2I Utility',
             titleBarStyle: "hidden",
             resizable: false,
