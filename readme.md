@@ -10,7 +10,7 @@ projects in images? Sounds interesting. Ok go...
 
 ## How to use?
 ### Installation: 
-`yarn global install f2i` or `npm install -g f2i`.
+`yarn global add f2i` or `npm install -g f2i`.
 
 ### Encode and decode
 Run `f2i` in the terminal and use UI application. Cli version right now in progress.
