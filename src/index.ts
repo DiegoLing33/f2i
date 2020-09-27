@@ -16,8 +16,17 @@ import fs from "fs";
 import ImageIO from "./image/ImageIO";
 import child_process from "child_process";
 
+/**
+ * Возвращает путь до файлов модуля
+ */
+function getModulePath(): string {
+    return __dirname.replace("/dist", "");
+}
+
+
 const ELECTRON_PATH = __dirname.replace("/dist", "") +
     "/node_modules/.bin/electron";
+
 
 /**
  * Запускает электрон
@@ -25,7 +34,7 @@ const ELECTRON_PATH = __dirname.replace("/dist", "") +
  */
 function launchElectron(flags: string[] = []) {
     flags.push("gui");
-    child_process.exec(path.resolve(ELECTRON_PATH + " ./ " + flags.join(" ")));
+    child_process.exec(path.resolve( ELECTRON_PATH) + " " + getModulePath() + '/dist ' + flags.join(" "));
 }
 
 
@@ -45,6 +54,7 @@ function gui(wd?: string) {
         const win = new BrowserWindow({
             width: 1000,
             height: 700,
+            darkTheme: true,
             webPreferences: {
                 nodeIntegration: true
             },
@@ -91,8 +101,10 @@ function gui(wd?: string) {
         });
 
 
-        // and load the index.html of the app.
-        win.loadFile(path.resolve(__dirname, "../src/static/index.html"));
+        win.setResizable(false);
+        win.setMenu(null);
+        win.center()
+        win.loadFile(path.resolve(getModulePath(), "src/static/index.html"));
     }
     app.whenReady().then(createWindow);
 

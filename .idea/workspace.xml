@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ca32a66-0b5e-4169-81f3-59c01fd4d281" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bin/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601157104754</updated>
-      <workItem from="1601157106111" duration="20991000" />
+      <workItem from="1601157106111" duration="22124000" />
     </task>
     <task id="LOCAL-00001" summary="Added license">
       <created>1601225285511</created>
@@ -138,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601225683631</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Removed babel">
+      <created>1601225899763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601225899763</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,17 +167,18 @@
     <MESSAGE value="Copyright added" />
     <MESSAGE value="Fixed readme" />
     <MESSAGE value="fix dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix dependencies" />
+    <MESSAGE value="Removed babel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed babel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601224294592">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1000" y="520" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1601224294592" />
-    <state x="857" y="209" key="CommitChangelistDialog2" timestamp="1601225683561">
+    <state x="857" y="209" key="CommitChangelistDialog2" timestamp="1601225899688">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="857" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1601225683561" />
+    <state x="857" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1601225899688" />
     <state x="1151" y="628" key="Github.ShareDialog" timestamp="1601223405965">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -197,10 +207,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="781" y="359" width="1320" height="722" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1601225358816" />
-    <state x="880" y="456" key="Vcs.Push.Dialog.v2" timestamp="1601225879181">
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2" timestamp="1601225902004">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="880" y="456" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1601225879181" />
+    <state x="880" y="456" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1601225902004" />
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1601164900961">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
