@@ -21,7 +21,7 @@ Run `f2i` in the terminal and use UI application. Cli version right now in progr
 ---
 
 ## API
-**Recommended to use dedicated [https://github.com/DiegoLing33/f2i-core](f2i.core) library!**
+**Recommended to use dedicated (https://github.com/DiegoLing33/f2i-core)[f2i.core] library!**
 
 You can import library to create your own projects. Just import 
 ```javascript
