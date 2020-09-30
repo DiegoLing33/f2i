@@ -1,4 +1,4 @@
-# F2I 0.1.5 &middot; [![GitHub license](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/DiegoLing33/f2i/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/f2i.svg?style=flat)](https://www.npmjs.com/package/f2i)
+# F2I 1.0.0 &middot; [![GitHub license](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://github.com/DiegoLing33/f2i/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/f2i.svg?style=flat)](https://www.npmjs.com/package/f2i)
 <img style="height: 100px" src="https://github.com/DiegoLing33/f2i/blob/master/resources/logo.png?raw=true" alt="logo" />
 
 File to image utility
@@ -21,17 +21,17 @@ Run `f2i` in the terminal and use UI application. Cli version right now in progr
 ---
 
 ## API
-**Recommended to use dedicated [f2i.core](https://github.com/DiegoLing33/f2i-core) library!**
+*Recommended to use [f2i.core](https://github.com/DiegoLing33/f2i-core) package*
 
-You can import library to create your own projects. Just import 
+You can import library to create your own projects. Just import f2i.core
 ```javascript
-import ImageIO from "f2i/dist/image/ImageIO";
+import F2I from "f2i.core";
 ```
-(*Maybe right now it doesn't seem pretty, but it works fine*)
+(*You should install it manually with `yarn add f2i.core`*)
 
 ### Text -> Image
 ```javascript
-ImageIO.textToImage( text ).then( image => image.write( path ));
+F2I.textToImage( text ).then( image => image.write( path ));
 ```
 
 - Param `text` - this is the text to encode
@@ -39,7 +39,7 @@ ImageIO.textToImage( text ).then( image => image.write( path ));
 
 ### Image -> Text
 ```javascript
-ImageIO.imagePathToText( path ).then(text => console.log(text));
+F2I.imagePathToText( path ).then(text => console.log(text));
 ```
 
 - Param `path` - this is the path to your `png` image file
