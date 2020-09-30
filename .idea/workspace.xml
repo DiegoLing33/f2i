@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9ca32a66-0b5e-4169-81f3-59c01fd4d281" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/screen.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image/ImageIO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/image/ImageIO.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +34,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="10.17.35" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.62" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -86,6 +87,7 @@
       <updated>1601157104754</updated>
       <workItem from="1601157106111" duration="24220000" />
       <workItem from="1601230786716" duration="2639000" />
+      <workItem from="1601454513820" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="Added license">
       <created>1601225285511</created>
@@ -296,21 +298,25 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1058" y="350" key="Github.UntrackedFilesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1601223418192" />
-    <state width="2518" height="419" key="GridCell.Tab.0.bottom" timestamp="1601230357555">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1238" height="207" key="GridCell.Tab.0.bottom" timestamp="1601456725650">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="207" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1601456725650" />
     <state width="2518" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1601230357555" />
-    <state width="2518" height="419" key="GridCell.Tab.0.center" timestamp="1601230357554">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1238" height="207" key="GridCell.Tab.0.center" timestamp="1601456725649">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="207" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1601456725649" />
     <state width="2518" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1601230357554" />
-    <state width="2518" height="419" key="GridCell.Tab.0.left" timestamp="1601230357553">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1238" height="207" key="GridCell.Tab.0.left" timestamp="1601456725648">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="207" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1601456725648" />
     <state width="2518" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1601230357553" />
-    <state width="2518" height="419" key="GridCell.Tab.0.right" timestamp="1601230357555">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1238" height="207" key="GridCell.Tab.0.right" timestamp="1601456725649">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="207" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1601456725649" />
     <state width="2518" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1601230357555" />
     <state x="781" y="359" width="1320" height="722" key="SettingsEditor" timestamp="1601225358816">
       <screen x="0" y="0" width="2560" height="1440" />
